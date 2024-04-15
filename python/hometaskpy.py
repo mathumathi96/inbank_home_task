@@ -4,8 +4,6 @@ from datetime import date
 
 today = date.today()
 cwd=os.path.abspath(".")
-print(cwd)
-
 file1=cwd+'/'+sys.argv[1]
 file2=cwd+'/'+sys.argv[2]
 
